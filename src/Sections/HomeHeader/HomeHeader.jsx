@@ -1,11 +1,12 @@
 import { FaPhone } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { IoStarSharp } from "react-icons/io5";
-
 import "./HomeHeader.scss";
+// import Nav from "../../components/shared/Nav";
 const HomeHeader = () => {
   return (
     <div className="HomeHeader">
+      {/* <Nav /> */}
       <div className="lg:px-6 py-40">
         <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           {/* py-24 sm:py-0 */}
