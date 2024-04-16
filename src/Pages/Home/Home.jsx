@@ -1,5 +1,6 @@
 import Nav from "../../components/shared/Nav";
 import About from "../../Sections/About/About";
+import Contact from "../../Sections/Contact/Contact";
 import Gallery from "../../Sections/Gallery/Gallery";
 import HomeHeader from "../../Sections/HomeHeader/HomeHeader";
 import Map from "../../Sections/Map/Map";
@@ -16,6 +17,7 @@ const Home = () => {
       <Testimonial />
       <Gallery />
       <Map />
+      <Contact />
     </div>
   );
 };
